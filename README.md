@@ -1,8 +1,8 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Soliton-Analytics-Team/Trendline/blob/main/TrendLine.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saliton/Trendline/blob/main/TrendLine.ipynb)
 
 # ローソク足に自動的にトレンドラインを引く
 
-[以前の記事](https://www.soliton-cyber.com/blog/colab-bokeh-candlestick)でローソク足を作成しました。今回は、それにトレンドラインを自動的に引いてみたいと思います。
+[以前の記事](https://qiita.com/saliton/items/6249d92f266ef435a5f0)でローソク足を作成しました。今回は、それにトレンドラインを自動的に引いてみたいと思います。
 
 まずは弊社の株価を取得します。
 
@@ -12,7 +12,7 @@ import pandas_datareader.data as web
 df = web.DataReader("3040.JP", "stooq").dropna().sort_index()
 ```
 
-次にローソク足を作成する関数を定義して実行します。この詳細は[以前の記事](https://www.soliton-cyber.com/blog/colab-bokeh-candlestick)を参照してください。
+次にローソク足を作成する関数を定義して実行します。この詳細は[以前の記事](https://qiita.com/saliton/items/6249d92f266ef435a5f0)を参照してください。
 
 
 ```Python
