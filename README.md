@@ -638,7 +638,7 @@ show(fig)
 ![png](files/9.png)
 
 
-さらに十字線とその値を表示する機能を追加しておきましょう。詳細は[以前の記事](https://www.soliton-cyber.com/blog/colab-bokeh-crosshairlabel)をご参照ください。
+さらに十字線とその値を表示する機能を追加しておきましょう。詳細は[以前の記事](https://qiita.com/saliton/items/eeec91c1cf9409647883)をご参照ください。
 
 
 ```Python
